@@ -1,0 +1,163 @@
+body {
+  margin: 0px;
+  font-family: "Clash Display", sans-serif;
+  height: 200vh;
+  
+}
+
+nav {
+  display: flex;
+  position: fixed;
+  width: 90vw;
+  z-index: 200;
+  flex-direction: row;
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 70px;
+  border: #fff;
+  border-bottom: 2px solid rgb(223, 213, 213);
+}
+
+#logo {
+  height: 32px;
+}
+
+.right {
+  display: flex;
+  gap: 100px;
+  background-color: #fff;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  font-size: 14px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+}
+
+.auth-link {
+  display: flex;
+  gap: 15px;
+}
+
+.auth-link button {
+  padding: 10px 25px;
+  border-radius: 30px;
+  border: 1px solid green;
+  font-family: "Clash Display", sans-serif;
+}
+
+.sign-in {
+  background-color: white;
+  color: green;
+}
+
+.sign-up {
+  background-color: #068353;
+  color: #fff;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+#first-image{
+    height: 500px;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    left: 40;
+    top: 100px;
+}
+
+.firstSection {
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    position: relative;
+    padding-top: 40px;
+    height: 82vh;
+  }
+
+.firstSection button{
+    padding: 10px 25px;
+    border-radius: 30px;
+    border: 1px solid green;
+    font-family: "Clash Display", sans-serif;
+    background-color: green;
+    color: #fff;
+  }
+  h1{
+    font-size: 50px;
+  }
+  .introparagrah{
+    width: 45%;
+    font-size: 18px;
+  }
+
+#brands{
+  background-color: #EDF0F5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6rem;
+  padding: 2.5rem 0;
+  gap: 6em;
+}
+#brands> img{
+  height: 40px;
+}
+
+.firstdd{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+h2 #span{
+  color: #068353;
+}
+.firstdd h2{
+  
+  width: 40rem;
+}
+
+/* #about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5rem;
+  padding: 30px 30px;
+} */
+
+.aboutchild{
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+}
+
+#image{
+  height: 30rem;
+}
+
+.firsth2{
+  width: 33rem;
+  padding-top: 8rem;
+}
+
+.button1{
+  border: none;
+  background-color: #fff;
+  color: #068353;
+  margin-left: -4px;
+}

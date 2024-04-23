@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+    background-color: aqua;
+}
+
+.box > div{
+
+    height: 200px;
+    width: 200px;
+
+}
+
+.box {
+    position: relative;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    width: 100vw;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+#box1 {
+    background-color:gold;
+    display: flex;
+
+}
+#box2{
+    background-color: rgb(255, 0, 200);
+    display: flex;
+    position: ;
+}
+
+
+.grid > div{
+    height: 100px;
+    width: 100px;
+    background-color:#030303;
+  }
+
+  .grid{
+    background-color: blueviolet;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
